@@ -1,0 +1,94 @@
+body {
+	background-color: rgb(166, 123, 91);
+	color: rgb(144, 73, 18);
+	font-family: Century gothic;
+	font-size: 18px;
+	font-weight: light;
+}
+
+h1 {
+	font-family: Century gothic;
+	font-weight: bold;
+	font-size: 65px;
+	letter-spacing:0px;
+}
+h1, h2, h3 {
+	color: rgb(59, 28, 10);
+	letter-spacing: 0px;
+	font-weight: bold;
+}
+a{
+	text-decoration: none;
+	color: #4A2125;
+	font-weight: bold;
+}
+.container {
+	width: 700px;
+	margin: 40px auto;
+}
+@media(max-width: 760px) {
+	.container{
+		width: 400px;
+	}
+}
+@media(max-width: 540px){
+	.container{
+		width: 300px
+	}
+}
+
+.card-white {
+	background-color: rgb(182, 151, 125);
+	padding: 40px;
+	box-shadow: 0px 10px 30px rgba(107, 83, 67, 0.9);
+	border-radius: 5px;
+	margin: 20px 0px;
+	text-align: center;
+}
+.img-circle {
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(107, 83, 67, 1.5);
+}
+.img-oval{
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(107, 83, 67, 0.5);
+}
+.img-two{
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(107, 83, 67, 1.5);
+}
+.img-circular{
+	border-radius: 50%;
+	box-shadow: 0px 10px 30px rgba(107, 83, 67, 1.5);
+}
+.btn-brown {
+	background-color: rgb(59, 28, 10);
+	color: rgb(182, 151, 125);
+	padding: 10px 15px;
+	border-radius: 5px;
+}
+.btn-brown:hover{
+	background-color: rgb(88, 17, 26);
+	color: rgb(182, 151, 125);
+	transition: all ease-in-out 0.3s;
+	box-shadow: 0px 10px 30px rgba(107, 83, 67, 1.5);
+}
+ul{
+	padding: 0px!important
+}
+.list-inline li {
+	display: inline;
+	padding: 5px;
+}
+.list-inline a {
+	font-size: 30px;
+	color: rgb(166, 123, 91);
+	text-align: right;
+}
+.list-inline a:hover {
+	color: rgb(88, 17, 26);
+	transition: all ease-in-out 0.3s;
+}
+#introduction p {
+	margin-bottom: 40px;
+}
